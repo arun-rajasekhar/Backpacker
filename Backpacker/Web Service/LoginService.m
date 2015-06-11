@@ -19,6 +19,12 @@
 /////////////////////////////////////////////////////////////////////////////////////
 -(void)verifyLoginCredentialsWithUsername:(NSString *)userName andPassword:(NSString *)password
 {
-    
+    //Preparing the params to be send to login service as body
+    //of post request
+    NSMutableDictionary *params = [NSMutableDictionary new];
+    [params setObject:userName forKey:USERNAME_LOGIN];
+    [params setObject:password forKey:PASSWRD_LOGIN];
+    //calling base class method to send request to server
+    [self sendRequestToURL:LOGIN_URL withData:params];
 }
 @end

@@ -12,4 +12,18 @@
 //Constants for local cache (NSUserDefaults) key
 #define LOGIN_CREDENTIAL @"login_credential"
 
+//URL used for consuming web services
+//Base URl of server
+#define BASE_URL @"http://sample.com"
+//login page service
+#define LOGIN_URL @"/login"
+#define LOGIN_FORGOT_PASSWD @"/ForgotPasswd"
+//service for getting details of destination selected
+#define HOME_DESTINATION_DETAILS @"/Destination"
+
+//Json Keywords used in each service
+//Keywords in login service
+#define USERNAME_LOGIN @"UserName"
+#define PASSWRD_LOGIN @"Password"
+
 #endif

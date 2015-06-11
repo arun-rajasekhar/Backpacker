@@ -26,6 +26,21 @@
 /////////////////////////////////////////////////////////////////////////////////////
 -(void)sendRequestToURL:(NSString *)url withData:(NSDictionary *)data
 {
+    //append base URL to requesting service handle
+    NSString *urlForRequest = [NSString stringWithFormat:@"%@%@",BASE_URL,url];
+    //create final URL to be send as request to server
+    NSURL *requestURL = [NSURL URLWithString:urlForRequest];
+    //create a request with service URL
+    NSMutableURLRequest *serviceRequest = [NSMutableURLRequest requestWithURL:requestURL];
+    //convert parameter data to NSData
+    NSError *error;
+    NSData *requestBody = [NSJSONSerialization dataWithJSONObject:data options:0 error:&error];
+    //add header for the request
+    [serviceRequest addValue:@"application/x-www-form-urlencoded"    forHTTPHeaderField:@"Content-Type"];
+    [serviceRequest setHTTPMethod:@"POST"];
+    [serviceRequest setHTTPBody:requestBody];
+    //post request to server
+    [NSURLConnection connectionWithRequest:serviceRequest delegate:self];
     
 }
 

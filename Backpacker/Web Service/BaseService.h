@@ -10,9 +10,11 @@
 /////////////////////////////////////////////////////////////////////////////////////////////
 
 #import <Foundation/Foundation.h>
+#import "Constants.h"
 
 @interface BaseService : NSObject<NSURLConnectionDelegate,NSURLConnectionDataDelegate>
 
+//Method for sending request to remote web server
 -(void)sendRequestToURL:(NSString *)url withData:(NSDictionary *)data;
 
 @end
