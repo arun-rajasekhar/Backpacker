@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A43CA9EE-2D69-437C-B0E9-2796E4428C43</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Backpacker</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>31967C45F5B72BA56F32E7BCE1F49143CB8C32D3</key>
+		<string>https://github.com/arun-rajasekhar/Backpacker.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Backpacker/Backpacker.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>31967C45F5B72BA56F32E7BCE1F49143CB8C32D3</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/arun-rajasekhar/Backpacker.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>31967C45F5B72BA56F32E7BCE1F49143CB8C32D3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>31967C45F5B72BA56F32E7BCE1F49143CB8C32D3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Backpacker</string>
+		</dict>
+	</array>
+</dict>
+</plist>
