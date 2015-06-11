@@ -27,4 +27,20 @@
     //calling base class method to send request to server
     [self sendRequestToURL:LOGIN_URL withData:params];
 }
+
+#pragma mark - delegates from server
+//Delegate method fired when response is received from server
+//@param: data recieved from server with json keyword
+-(void)didReceiveDataFromServer:(NSDictionary *)data
+{
+    
+}
+
+//Delegate method trigerred when unexpected response recieved from server
+//@param: error code received from server
+-(void)didFailToRecieveDataFromServer:(NSError *)error
+{
+    
+}
+
 @end

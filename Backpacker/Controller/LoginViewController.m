@@ -8,8 +8,12 @@
 /////////////////////////////////////////////////////////////////////////////////////////////
 
 #import "LoginViewController.h"
+#import "LoginService.h"
 
 @interface LoginViewController()
+{
+    LoginService *serviceHandler;
+}
 
 @property(nonatomic,weak) IBOutlet UITextField *loginUsername;
 @property(nonatomic,weak) IBOutlet UITextField *loginPassword;
@@ -21,6 +25,23 @@
 
 @implementation LoginViewController
 
+//class initialiser
+- (instancetype)init
+{
+    self = [super init];
+    if (self)
+    {
+        serviceHandler = [LoginService new];
+    }
+    return self;
+}
+
+-(void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+}
+
 #pragma mark - Event handlers
 
 /////////////////////////////////////////////////////////////////////////////////////
@@ -31,6 +52,11 @@
 /////////////////////////////////////////////////////////////////////////////////////
 -(void)didClickEnterButton:(id)sender
 {
-  
+  if((![self.loginPassword.text  isEqual: EMPTY_STRING]) && (![self.loginUsername  isEqual: EMPTY_STRING]))
+  {
+      [serviceHandler verifyLoginCredentialsWithUsername:self.loginUsername.text andPassword:self.loginPassword.text];
+  }
 }
+
+
 @end

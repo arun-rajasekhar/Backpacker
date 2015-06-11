@@ -70,4 +70,17 @@
     
 }
 
+#pragma mark - Implementation of base service protocol
+
+//Delegate method fired when response is received from server
+-(void)didReceiveDataFromServer:(NSDictionary *)data
+{
+    
+}
+//Delegate method trigerred when unexpected response recieved from server
+-(void)didFailToRecieveDataFromServer:(NSError *)error
+{
+
+}
+
 @end

@@ -41,6 +41,7 @@
 		E80997981B2951F7006A7E29 /* LoginService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginService.m; path = "Web Service/LoginService.m"; sourceTree = "<group>"; };
 		E809979A1B29522F006A7E29 /* BaseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseService.h; path = "Web Service/BaseService.h"; sourceTree = "<group>"; };
 		E809979B1B29522F006A7E29 /* BaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseService.m; path = "Web Service/BaseService.m"; sourceTree = "<group>"; };
+		E809979D1B29A7E1006A7E29 /* LoginProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginProtocol.h; path = Controller/LoginProtocol.h; sourceTree = "<group>"; };
 		E850ACA21B280A9300EA067B /* Backpacker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Backpacker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E850ACA61B280A9300EA067B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E850ACA71B280A9300EA067B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -159,6 +160,7 @@
 				E850ACDB1B28143500EA067B /* BaseViewController.m */,
 				E850ACDD1B28154000EA067B /* HomeViewController.h */,
 				E850ACDE1B28154000EA067B /* HomeViewController.m */,
+				E809979D1B29A7E1006A7E29 /* LoginProtocol.h */,
 			);
 			name = Controller;
 			sourceTree = "<group>";

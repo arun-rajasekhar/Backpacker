@@ -9,7 +9,7 @@
         <!--Login View Controller-->
         <scene sceneID="UNQ-o6-9s7">
             <objects>
-                <viewController storyboardIdentifier="LoginController" id="Ptp-3W-dCX" userLabel="Login View Controller" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginController" id="Ptp-3W-dCX" userLabel="Login View Controller" customClass="LoginViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="UfH-5a-rAr"/>
                         <viewControllerLayoutGuide type="bottom" id="J8e-81-Jlc"/>
@@ -79,6 +79,9 @@
                                 <state key="normal" title="Enter">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="didClickEnterButton:" destination="Ptp-3W-dCX" eventType="touchUpInside" id="JZZ-L3-X4y"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -151,6 +154,10 @@
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" id="5NH-st-1u2"/>
+                    <connections>
+                        <outlet property="loginPassword" destination="4Wd-4k-7A1" id="EPl-IR-tsJ"/>
+                        <outlet property="loginUsername" destination="1wz-pC-cfz" id="zJG-QX-8Uz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hPo-f1-kGu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -185,10 +192,10 @@
                                 <exclude reference="tyO-mT-rwD"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="nxl-Os-p5a"/>
                                 <exclude reference="8KG-xi-69A"/>
                                 <exclude reference="8hX-9x-LB1"/>
                                 <exclude reference="PfH-l2-5eC"/>
-                                <exclude reference="nxl-Os-p5a"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -196,10 +203,10 @@
                                 <include reference="tyO-mT-rwD"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="nxl-Os-p5a"/>
                                 <include reference="8KG-xi-69A"/>
                                 <include reference="8hX-9x-LB1"/>
                                 <include reference="PfH-l2-5eC"/>
-                                <include reference="nxl-Os-p5a"/>
                             </mask>
                         </variation>
                     </view>

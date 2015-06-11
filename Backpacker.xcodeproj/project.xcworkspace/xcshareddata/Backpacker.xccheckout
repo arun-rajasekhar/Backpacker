@@ -10,29 +10,29 @@
 	<string>Backpacker</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>31967C45F5B72BA56F32E7BCE1F49143CB8C32D3</key>
+		<key>B29517B0F2632F18F26ACFFBBD4A6ED5D7308CC3</key>
 		<string>https://github.com/arun-rajasekhar/Backpacker.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Backpacker/Backpacker.xcodeproj</string>
+	<string>Backpacker.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>31967C45F5B72BA56F32E7BCE1F49143CB8C32D3</key>
-		<string>../../..</string>
+		<key>B29517B0F2632F18F26ACFFBBD4A6ED5D7308CC3</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/arun-rajasekhar/Backpacker.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>31967C45F5B72BA56F32E7BCE1F49143CB8C32D3</string>
+	<string>B29517B0F2632F18F26ACFFBBD4A6ED5D7308CC3</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>31967C45F5B72BA56F32E7BCE1F49143CB8C32D3</string>
+			<string>B29517B0F2632F18F26ACFFBBD4A6ED5D7308CC3</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Backpacker</string>
 		</dict>

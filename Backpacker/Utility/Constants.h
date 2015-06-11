@@ -26,4 +26,7 @@
 #define USERNAME_LOGIN @"UserName"
 #define PASSWRD_LOGIN @"Password"
 
+//Miscellaneous constants
+#define EMPTY_STRING @""
+
 #endif

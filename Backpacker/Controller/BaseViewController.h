@@ -9,7 +9,9 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 #import <UIKit/UIKit.h>
+#import "Constants.h"
+#import "LoginProtocol.h"
 
-@interface BaseViewController : UIViewController
+@interface BaseViewController : UIViewController<LoginProtocol>
 
 @end
