@@ -57,6 +57,15 @@
       [serviceHandler verifyLoginCredentialsWithUsername:self.loginUsername.text andPassword:self.loginPassword.text];
   }
 }
+#pragma mark - delegates for cascading response from model/service class
+-(void)didRecieveresponse:(NSDictionary *)response
+{
+    //caching user credentials on successfull login
+    [CacheManager storeData:response ToCacheForKey:LOGIN_CREDENTIAL];
+}
+-(void)didFailToRecieveresponse:(NSError *)error
+{
 
+}
 
 @end

@@ -12,4 +12,13 @@
 
 @implementation BaseViewController
 
+-(void)didRecieveresponse:(NSDictionary *)response
+{
+    
+}
+-(void)didFailToRecieveresponse:(NSError *)error
+{
+    
+}
+
 @end

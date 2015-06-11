@@ -9,6 +9,7 @@
 
 #import <UIKit/UIKit.h>
 #import "BaseViewController.h"
+#import "CacheManager.h"
 
 @interface LoginViewController :BaseViewController
 
